@@ -1,0 +1,7 @@
+<div :class="$style.root">
+	<slot name="reference"></slot>
+	<div ref="popover" :class="$style.popover" v-show="show" draggable="true" :theme="theme">
+		<div :class="$style.popper__arrow" x-arrow ></div>
+		<p :class="$style.popoverText">{{text}}</p>
+	</div>
+</div>

@@ -1,0 +1,31 @@
+{
+  "name": "u-popover.vue",
+  "description": "Vusion Proto UI - Popover",
+  "version": "0.2.0",
+  "author": "ChenWeiYuan123 <chenweyan@foxmail.com>",
+  "main": "./index.js",
+  "repository": "vusion/proto-ui",
+  "homepage": "http://vusion.github.io",
+  "bugs": {
+    "url": "http://github.com/vusion/proto-ui/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vusion",
+    "proto",
+    "ui",
+    "proto-ui"
+  ],
+  "tags": [
+    "vusion",
+    "proto",
+    "ui",
+    "proto-ui"
+  ],
+  "peerDependencies": {
+    "vue": "^2.4.0"
+  },
+  "dependencies": {
+    "popper.js": "^1.12.3"
+  }
+}
